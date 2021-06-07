@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace BookStoreApp.Controllers
 {
-    public class HomeContoller: Controller
+    public class HomeController : Controller
     {
-        public String Index()
+        public string Index()
         {
             return "WebGentle";
         }
